@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.fvtc.grocerylist.MainActivity">
+
+    <item
+        android:id="@+id/menuShoppingList"
+        android:orderInCategory="100"
+        android:title="@string/show_shopping_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuShowMaster"
+        android:orderInCategory="100"
+        android:title="@string/show_master"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuAddItem"
+        android:orderInCategory="100"
+        android:title="@string/add_item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuClearAll"
+        android:orderInCategory="100"
+        android:title="@string/clear_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuDeleteChecked"
+        android:orderInCategory="100"
+        android:title="@string/delete_checked"
+        app:showAsAction="never" />
+</menu>
